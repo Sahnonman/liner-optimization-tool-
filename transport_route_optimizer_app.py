@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pandas as pd
 import math
@@ -94,4 +93,4 @@ if uploaded_file:
         st.success(f"💰 Total Cost: SAR {value(model.objective):,.2f}")
 else:
     st.info("📎 Please upload the Excel file 'Routes' sheet to begin.")
-```
+
